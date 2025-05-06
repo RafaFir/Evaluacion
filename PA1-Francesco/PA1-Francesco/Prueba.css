@@ -1,0 +1,72 @@
+.cuerpos{
+    border: 2px solid gray;
+    width: 68%;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    gap: 10px;
+    overflow: hidden ;
+    box-sizing: border-box;
+}   
+.episodio{
+    margin: 20px;
+    padding:20px;
+    width: 30%;
+    color: white;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.episodio>img{
+        width:100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 10px;
+
+}
+
+.caja{
+    border: 1px solid black ;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+
+   
+}
+#pre1{
+    border: 1px solid #D8452E;
+    background-color:#D8452E;
+    
+   
+}
+#pre2{
+    border: 1px solid #2678BE;
+    background-color: #2678BE;
+}
+#pre3{
+    border: 1px solid #6BA714;
+    background-color: #6BA714;
+}
+
+.definiciones{
+    border:3px solid black;
+    margin: auto;
+    
+    gap: 20px;
+    padding: 15px;
+    
+    
+}
+text-shadow: 2px 10px 10px gray;
+    margin-inline-start: 0px;
+    font-weight: bold;
+    margin-top: -1px;
+    #cabeza{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
