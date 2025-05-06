@@ -1,0 +1,192 @@
+:root{
+    --css1:#2678BE;
+    --html1:#D8452E;
+    --js1:#6BA714;
+    --font1:"Roboto";
+    --font2:"SyneTactile";
+    --font3:"Underdog";
+
+}
+
+#contenido{
+    border: 2px dotted;
+    width: auto;
+    padding: 15px;
+    margin:5px;
+    background-image: url(imagenes/fondo.jpg);
+    
+}
+#cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+}
+#creador{
+    border: 1px solid white;
+    height: 20px;
+    width: 12.5%;
+    padding: 0 10px; 
+    display: flex;  
+    align-items: center; 
+    text-align: center;
+    background-color: white;
+    align-self: flex-end;
+}
+
+#info{
+    font-size: 17px;
+    font-family: var(--font3);
+    font-size: 17px;
+}
+#cabeza img{
+    height: 150px;
+    border-radius: 50%;
+}
+#titulo{
+   
+    background-color: white;
+    height: 40px;
+    padding: 0 10px; /* solo padding lateral */
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    color: #44ACEF;
+    text-shadow: 1px 9px 15px lightslategray;
+ 
+}
+#definiciones{
+    border:3px solid black;
+    margin: auto;
+    display:flex;
+    gap: 20px;
+    padding: 15px;
+}
+.caja{
+    border: 1px solid black ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    font-family:var(--font1);
+    color: gray;
+}
+.caja>img{
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+
+}
+#pre1{
+    border: 1px solid #D8452E;
+    background-color:var(--html1)
+    
+}
+#pre2{
+    border: 1px solid #2678BE;
+    background-color: var(--css1)
+}
+#pre3{
+    border: 1px solid #6BA714;
+    background-color:var(--js1)
+}
+h2{
+    font-family:Arial
+}
+#copilacion{
+    border: 3px solid ;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    padding: 15px;
+}
+.cajon{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    font-family:var(--font3) ;
+    
+}
+.cajon h2{
+    color:white
+}
+#pro1{
+    border: 1px solid var(--html1);
+    background-color: var(--html1);
+    text-align: center;
+
+}
+#pro2{
+    border: 1px solid var(--css1);
+    background-color: var(--css1);
+    text-align: center;
+
+}
+#pro3{
+    border: 1px solid var(--js1);
+    background-color: var(--js1);
+    text-align: center;
+}
+#foto{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+}
+#foto img{
+    border: 1px solid gray;
+    width: 40%;
+    box-shadow:10px 8px 5px lightslategray ;
+}
+#concluyo{
+    border: 1px solid gray;
+    display: flex;
+    width: 70%;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    box-shadow: -3px 5px 3px lightslategray;
+    border-radius:8px;
+    font-family: var(--font3);
+}
+#pie>h2{
+    text-decoration: underline;
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(Fuentes/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+    font-weight: bolder;
+    font-style: italic;
+}
+@font-face {
+    font-family: "SyneTactile";
+    src: url(Fuentes/SyneTactile-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family:"Underdog" ;
+    src: url(Fuentes/Underdog-Regular.ttf);
+    font-weight: bold;
+    font-style: bold
+    ;
+}
+.icon_html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+
